@@ -1,0 +1,27 @@
+body{
+	font-size: 14px;
+}
+.theory, .definition, .example, .question, .attention, .example_explanation {
+  width: 70%;
+  margin: 0 auto;
+}
+
+div {
+  padding: 10px;
+}
+.quest_answer {
+  height: 20px;
+  width: 20px;
+}
+.right_quest_answer {
+  color: #191919;
+    background: #fff700;
+    width: 50%;
+}
+.text_bold{
+	font-weight: 600;
+}
+.error{
+background: red;
+width: 50%;
+}

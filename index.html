@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Величина и направление вектора</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+
+    <script type="text/javascript" src="https://www.geogebra.org/apps/deployggb.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+</head>
+
+<body>
+    <h1>
+        Цилиндр
+    </h1>
+
+    <div class="theory theory_1">
+        <p>
+            Есть несколько подходов к объяснению фигуры под названием «цилиндр».<br> Цилиндр является телом вращения –телом в пространстве, полученным вращением какой-нибудь плоской фигуры вокруг какой-нибудь оси. <br> Рассмотрим способ получения цилиндра.<br>
+        </p>
+    </div>
+
+    <div class="theory theory_2">
+        <p>
+            Возьмём прямоугольник \(ABCD\) и начнём вращать сторону \(AB\) относительно прямой \(k\).
+        </p>
+        <div id="ggbElement_1"></div>
+        <p>
+            Так образуется поверхность, которая называется цилиндрической.
+        </p>
+        <div id="ggbElement_2"></div>
+        <p>
+            При этом прямая \(k\) называется <span class="text_bold">осью цилиндрической поверхности</span>, а все прямые, образованные движением отрезка \(CD\)- <span class="text_bold">образующими цилиндрической
+                поверхности.</span>
+        </p>
+    </div>
+
+    <div class="example">
+        <div id="ggbElement_generatrix"></div>
+        <p>
+            На цилиндрической поверхности размещены образующие \(GJ\), \(EK\), \(DN\), \(CH\), \(FI\). Прямая \(r\) - ось цилиндрической поверхности. Двугранным углом называется фигура, образованная двумя полуплоскостями с общей прямой, ограничивающей их.
+        </p>
+    </div>
+
+    <div class="theory theory_3">
+        <p>
+            Концы образующих цилиндрической поверхности образуют две окружности.<br> Проведём через эти окружности две плоскости. Так получатся два круга,<br> ограниченные данными окружностями.<br>
+        </p>
+        <div id="ggbElement_3"></div>
+        <p>Вся фигура, состоящая из цилиндрической поверхности и двух кругов, является
+            <span class="text_bold">цилиндром.</span></p>
+    </div>
+    <div class="definition">
+        <p>
+            Цилиндр – геометрическое тело вращения, ограниченное цилиндрической поверхностью и двумя параллельными плоскостями, пересекающими её.
+        </p>
+        <div id="ggbElement_4"></div>
+    </div>
+
+
+    <div class="theory theory_4">
+        <p>
+            Рассмотрим элементы и некоторые свойства цилиндра.
+        </p>
+        <div id="ggbElement_5"></div>
+
+        <p>
+            Круги с центрами в точках \(A\) и\( B\) - <span class="text_bold">основания</span> цилиндра.<br> Прямая \(AB\), проходящая через центры оснований – <span class="text_bold">ось</span> цилиндра.<br> Отрезок \(CD\) - <span class="text_bold">образующая</span>            цилиндра.<br> Отрезок \(BD\), являющийся радиусом основания – <span class="text_bold">радиус</span> цилиндра.<br> \(FE\) - <span class="text_bold">высота</span> цилиндра. Перпендикуляр, проведённый к двум основаниям.<br> Вся поверхность цилиндра
+            называется <span class="text_bold">полной поверхностью</span>.<br> Поверхность цилиндра кроме его оснований – <span class="text_bold">боковой поверхностью</span> цилиндра.<br>
+        </p>
+
+
+    </div>
+
+    <div class="attention">
+        <p>
+            Основания цилиндра являются равными кругами, лежащими в параллельных плоскостях.
+            <br> Все образующие цилиндра параллельны и равны.
+        </p>
+
+
+    </div>
+    <div class="question">
+        <p>Укажите отрезок, являющийся образующей цилиндра.</p>
+        <div id="ggbElement_6"></div>
+        <form action="">
+            <p>A) <input type="checkbox" name="" id="" value="" class="quest_answer error_check"> \(AB\) </p>
+            <p>Б) <input type="checkbox" name="" id="" value="" class="quest_answer error_check"> \(AG\)</p>
+            <p>В) <input type="checkbox" name="" id="" value="" class="quest_answer error_check"> \(FE\)</p>
+            <p class="" id="right_check">Г) <input type="checkbox" name="" id="right_answer" value="" class="quest_answer"> \(CD\)</p>
+            <input type="button" onclick="fn_right_check()" value="Отправить ответ">
+        </form>
+    </div>
+</body>
+
+</html>
